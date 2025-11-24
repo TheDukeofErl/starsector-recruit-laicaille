@@ -18,7 +18,7 @@ public class IndependentMinded {
 		}
 
 		public void unapply(MarketAPI market, String id) {
-			market.getUpkeepMult().unmodify(id);
+			market.getIncomeMult().unmodify(id);
 		}
 
 		public String getEffectDescription(float level) {
