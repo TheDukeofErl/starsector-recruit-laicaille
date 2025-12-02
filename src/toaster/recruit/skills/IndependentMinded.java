@@ -40,7 +40,7 @@ public class IndependentMinded {
         }
 
         public void unapply(MarketAPI market, String id) {
-            market.getStability().unmodifyMult(id);
+            market.getStability().unmodify(id);
         }
 
         public String getEffectDescription(float level) {
